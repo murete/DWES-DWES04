@@ -97,7 +97,7 @@ en blancos.");
             </div>
             <?php
             if (isset($_SESSION['error'])) {
-                echo "<div class='mt-3 text-danger font-weight-bold text-lg'>";
+                echo "<div class='mt-3 text-danger text-center font-weight-bold text-lg'>";
                 echo $_SESSION['error'];
                 unset($_SESSION['error']);
                 echo "</div>";
